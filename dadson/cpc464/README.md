@@ -1,6 +1,6 @@
 # Conversion
 
-This proved to be a very tricky process due to my inexperirence. I used
+This proved to be a very tricky process due to my inexperience. I used
 following equipment:
 
 1. Nordmende Monocorder 1560
@@ -10,16 +10,16 @@ following equipment:
 
 Connections:
 
-1. 3.5 mm mono jack was plugged into the speaker out connector (adjucent
+1. 3.5 mm mono jack was plugged into the speaker out connector (adjacent
    to the DIN connector) on the Monocorder end
 2. 3.5 mm TRRS jack was plugged into the headset connector located at the
    front of Optiplex
 
 On the software side I used Audacity. The configuration was ALSA / Headset
-Mic0 / 2 (Stereo) Recording Channels, microphone level at the max, with the
-44100 Hz rate. Exported file was WAV Signed 16-bit PCM.
+Mic0 / 2 (Stereo) Recording Channels, microphone level at 0.73, with the
+44100 Hz rate. Exported file was `WAV Signed 16-bit PCM`.
 The output audio level on the Monocorder side was varied from around 85% to
-50%. Microphone volume level on the system side was vaired from around 33%
+50%. Microphone volume level on the system side was varied from around 33%
 to 67% with PulseAudio Volume Control. Basically, initial conversions were
 tried with 85%/33% speaker/microphone levels, with some success, and gradually
 shifted to 50%/67% levels. While the later combo gave good results (not 100%),
@@ -38,8 +38,10 @@ The most interesting code is:
 3. sortiranje.cdt plus sortiranje-bin.cdt - number sorting (Basic + z80)
 4. memorija.cdt - memory game for two players (Basic)
 
-From the orange cassete I still have to try to get:
+The orange cassette A side is all converted apart from Fruity Frank game, while the B side has the following titles:
 
-1. reci 1.1
-2. rotacija 1.2
-3. permutacije
+1. Yie-ar Kung-Fu (no header so can't be converted with the `monocrun`)
+2. Maxam2 and Maxam3 (partial files, basically lost)
+3. Hisoft Pascal (converted)
+4. Label Basic (block 2 problematic)
+5. the rest of the side is blank
